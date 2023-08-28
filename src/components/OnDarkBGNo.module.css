@@ -1,0 +1,8 @@
+.onDarkBgno {
+  position: relative;
+  background-color: var(--neutrals-off-white);
+  width: 1440px;
+  height: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}

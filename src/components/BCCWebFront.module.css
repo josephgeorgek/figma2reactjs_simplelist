@@ -1,0 +1,40 @@
+.bdcWithNewLogo1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 271px;
+  height: 170px;
+  object-fit: cover;
+}
+.patrickTan {
+  position: absolute;
+  width: calc(100% - 172px);
+  top: 141px;
+  left: 17px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  height: 17.09px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+.bccWithNewOcbcLogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 271px;
+  height: 170px;
+}
+.bccWebFront {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--neutrals-white-100);
+  box-shadow: 0 26px 20px -20px rgba(0, 0, 0, 0.25);
+  width: 271px;
+  height: 170px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--px-bold-upper-size);
+  color: var(--neutrals-white-100);
+  font-family: var(--font-ibm-plex-mono);
+}

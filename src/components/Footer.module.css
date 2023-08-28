@@ -1,0 +1,18 @@
+.ocbcAllRights {
+  position: relative;
+  line-height: 21px;
+}
+.footer {
+  position: relative;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-137xl) var(--padding-21xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--px-bold-upper-size);
+  color: var(--bb-neutrals-grey900);
+  font-family: var(--px-semibold);
+}

@@ -1,0 +1,379 @@
+.labelCopy4 {
+  top: 1042px;
+  left: 1033px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--functional-blue-900);
+  display: none;
+}
+.fill,
+.fxAlerts,
+.labelCopy4 {
+  position: absolute;
+}
+.fxAlerts {
+  width: 11.94%;
+  top: calc(50% - 764px);
+  left: 61.6%;
+  font-size: var(--px-semibold-size);
+  line-height: 24px;
+  display: none;
+}
+.fill {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutrals-grey-100-100);
+}
+.dividerscontentDividersthin {
+  position: absolute;
+  height: 0.09%;
+  width: 45.97%;
+  top: 28.82%;
+  right: 42.99%;
+  bottom: 71.09%;
+  left: 11.04%;
+  display: none;
+}
+.dividerscontentDividersthin1 {
+  position: absolute;
+  width: 662px;
+  height: 0.8px;
+  display: none;
+}
+.dividerscontentDividersthinWrapper {
+  position: absolute;
+  top: 31.44%;
+  left: 44.17%;
+  width: 0;
+  height: 0;
+}
+.creditLine {
+  position: absolute;
+  top: 8px;
+  left: 24px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  width: 296px;
+}
+.frameChild {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background: radial-gradient(50% 50%at 50% 50%, #ffd566, #ffaa36);
+  width: 8px;
+  height: 8px;
+}
+.creditLimitUsed {
+  position: relative;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.rectangleParent {
+  position: absolute;
+  top: 9px;
+  left: 664px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameItem {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background: radial-gradient(50% 50%at 50% 50%, #74d8a7, #299e65 99.96%);
+  width: 8px;
+  height: 8px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 8px;
+  left: 849px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.creditLineParent {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--neutrals-grey-100-30);
+  height: 34px;
+}
+.landingCardHolderInner {
+  position: absolute;
+  top: 1047px;
+  left: 156px;
+  background-color: var(--neutrals-white-80);
+  width: 1127px;
+  display: none;
+  flex-direction: column;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: right;
+  font-size: var(--font-size-xs);
+  color: var(--neutrals-grey-400-100);
+}
+.estatements,
+.transactionHistory {
+  position: relative;
+  line-height: 28px;
+}
+.estatements {
+  font-size: var(--px-semibold-size);
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--functional-blue-900);
+  display: none;
+}
+.transactionHistoryParent {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameWrapper {
+  align-self: stretch;
+  position: relative;
+  height: 40px;
+}
+.transactionDateWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+}
+.description {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.descriptionWrapper {
+  flex: 1;
+  padding: var(--padding-5xs) var(--padding-base);
+  justify-content: flex-start;
+}
+.descriptionWrapper,
+.frameParent1,
+.transactionAmountSgdWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.transactionAmountSgdWrapper {
+  padding: var(--padding-5xs) var(--padding-base);
+  justify-content: flex-end;
+  text-align: right;
+}
+.frameParent1 {
+  border-bottom: 1px solid var(--neutrals-grey-100-100);
+  box-sizing: border-box;
+  width: 1128px;
+  justify-content: flex-start;
+}
+.bubbleTeaShop {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 93px;
+  flex-shrink: 0;
+}
+.bubbleTeaShop5341Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameInner {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--neutrals-grey-100-100);
+  height: 1px;
+}
+.frameParent3 {
+  align-self: stretch;
+  width: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bubbleTeaShop20 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.frameParent4 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amount,
+.amount1 {
+  position: relative;
+  line-height: 24px;
+}
+.amount1 {
+  display: none;
+  color: var(--neutrals-grey-400-100);
+}
+.amountParent {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-11xs);
+}
+.frameChild37 {
+  position: relative;
+  background-color: var(--neutrals-grey-100-100);
+  width: 504px;
+  height: 1px;
+}
+.amountGroup {
+  color: var(--neutrals-dark);
+}
+.amountContainer,
+.amountGroup {
+  width: 504px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-11xs);
+}
+.frameDiv,
+.frameParent2,
+.frameParent5 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent5 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  color: var(--functional-green-900);
+}
+.frameDiv,
+.frameParent2 {
+  border-radius: var(--br-xs);
+  align-items: flex-start;
+}
+.frameParent2 {
+  width: 1128px;
+  overflow-y: auto;
+  flex-direction: row;
+  font-size: var(--px-semibold-size);
+  color: var(--bb-neutrals-grey900);
+}
+.frameDiv {
+  background-color: var(--neutrals-white-100);
+  border: 1px solid var(--neutrals-grey-100-100);
+  flex-direction: column;
+  font-size: var(--font-size-xs);
+  color: var(--neutrals-grey-400-100);
+}
+.rectangleIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.frameContainer {
+  width: 1128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-base);
+}
+.ocbcAllRights {
+  position: relative;
+  line-height: 21px;
+}
+.footer,
+.frameGroup {
+  display: flex;
+  box-sizing: border-box;
+}
+.footer {
+  width: 1128px;
+  flex-direction: row;
+  padding: var(--padding-5xl) 0;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--px-bold-upper-size);
+}
+.frameGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl) var(--br-5xl) 0 0;
+  background-color: var(--neutrals-white-100);
+  width: 1440px;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-137xl) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+  cursor: pointer;
+}
+.mouse2Icon {
+  position: absolute;
+  top: 68px;
+  left: 1295px;
+  width: 111px;
+  height: 82px;
+  object-fit: cover;
+}
+.frameParent {
+  position: absolute;
+  top: 473px;
+  left: 0;
+  width: 1440px;
+  height: 1470px;
+  font-size: var(--px-bold-size);
+}
+.landingCardHolder {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--px-bold-upper-size);
+  color: var(--bb-neutrals-grey900);
+  font-family: var(--px-semibold);
+}

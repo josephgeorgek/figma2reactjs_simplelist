@@ -1,0 +1,47 @@
+.backgroundIcon,
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2153.57px;
+  height: 2055px;
+}
+.fill {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: var(--neutrals-grey-100-100);
+}
+.dividerscontentDividersthin {
+  position: absolute;
+  width: 662px;
+  height: 3.37px;
+  display: none;
+}
+.dividerscontentDividersthinWrapper,
+.homeExploration {
+  position: absolute;
+  top: 19.34%;
+  left: 44.17%;
+  width: 0;
+  height: 0;
+}
+.homeExploration {
+  height: 142.87%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -42.87%;
+  left: 0;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+}
+.typewhite {
+  position: relative;
+  background-color: var(--neutrals-white-100);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  flex-shrink: 0;
+}

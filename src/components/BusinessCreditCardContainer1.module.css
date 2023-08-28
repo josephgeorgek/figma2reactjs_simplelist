@@ -1,0 +1,11 @@
+.header {
+  position: absolute;
+  top: 214px;
+  left: 0;
+  width: 1440px;
+  height: 488px;
+  text-align: left;
+  font-size: var(--px-semibold-size);
+  color: var(--neutrals-grey-500-100);
+  font-family: var(--px-semibold);
+}

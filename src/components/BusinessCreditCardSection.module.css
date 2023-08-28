@@ -1,0 +1,89 @@
+.transferMoney {
+  position: relative;
+  line-height: 28px;
+}
+.frameContainer,
+.transferMoneyWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex-direction: column;
+}
+.iconsutilitychevronDown {
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--neutrals-white-10);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+.frameGroup {
+  border-radius: var(--br-81xl);
+  gap: var(--gap-base);
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.loadTemplate {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.loadTemplateWrapper {
+  border-radius: var(--br-81xl);
+  background-color: var(--neutrals-white-10);
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameDiv {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameParent,
+.secondaryParent {
+  display: flex;
+  flex-direction: row;
+}
+.secondaryParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--px-semibold-size);
+  color: var(--neutrals-white-100);
+}
+.frameParent {
+  position: absolute;
+  top: 214px;
+  left: 0;
+  width: 1440px;
+  padding: var(--padding-40xl) var(--padding-137xl) var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--px-bold-size);
+  color: var(--bb-neutrals-grey900);
+  font-family: var(--px-semibold);
+}

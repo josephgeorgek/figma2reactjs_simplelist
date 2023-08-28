@@ -1,0 +1,208 @@
+.cardNo {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  height: 24px;
+  flex-shrink: 0;
+}
+.overview,
+.overview1 {
+  position: relative;
+  line-height: 28px;
+}
+.overview1 {
+  line-height: 21px;
+  font-weight: 600;
+}
+.overviewParent,
+.overviewWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.overviewWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals-grey-200-50);
+  padding: var(--padding-11xs) var(--padding-5xs);
+  align-items: flex-start;
+  font-size: var(--px-bold-upper-size);
+}
+.overviewParent {
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--px-bold-size);
+  color: var(--bb-neutrals-grey900);
+}
+.cardNoParent {
+  width: 304px;
+  flex-direction: column;
+  padding: 0 var(--padding-60xl) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.cardNoParent,
+.expiryDateParent,
+.overviewGroup {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.overviewGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: var(--px-bold-size);
+  color: var(--bb-neutrals-grey900);
+}
+.expiryDateParent {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-60xl) 0 0;
+  align-items: flex-start;
+}
+.frameIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  display: none;
+}
+.frameDiv,
+.frameIcon,
+.overview4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frameDiv {
+  width: 164px;
+  height: 24px;
+}
+.overview4 {
+  line-height: 28px;
+}
+.overviewFrame {
+  position: absolute;
+  top: 0.5px;
+  left: 31px;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals-grey-200-50);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--px-bold-upper-size);
+}
+.overviewContainer {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 164px;
+  height: 28px;
+  font-size: var(--px-bold-size);
+  color: var(--bb-neutrals-grey900);
+}
+.frameContainer {
+  position: relative;
+  width: 164px;
+  height: 56px;
+  color: var(--neutrals-grey-700-100);
+}
+.frameGroup {
+  width: 699px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.span {
+  line-height: 28px;
+}
+.span1 {
+  font-size: var(--px-semibold-size);
+  line-height: 24px;
+}
+.overview6,
+.overview7 {
+  position: relative;
+}
+.overview7 {
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.overviewWrapper1 {
+  padding: 0 0 var(--padding-12xs);
+  align-items: flex-start;
+  font-size: var(--px-bold-upper-size);
+  color: var(--neutrals-grey-500-100);
+}
+.frameParent2,
+.overviewParent1,
+.overviewWrapper1,
+.overviewWrapper2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.overviewParent1 {
+  align-items: flex-end;
+  gap: var(--gap-9xs);
+}
+.frameParent2,
+.overviewWrapper2 {
+  align-items: flex-start;
+}
+.overviewWrapper2 {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutrals-grey-700-100);
+  padding: var(--padding-11xs) var(--padding-5xs);
+  font-size: var(--px-bold-upper-size);
+  color: var(--neutrals-off-white);
+}
+.frameParent2 {
+  gap: var(--gap-5xs);
+  font-size: var(--px-bold-size);
+  color: var(--bb-neutrals-grey900);
+}
+.dueOn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  font-weight: 600;
+}
+.frameParent,
+.overviewParent3 {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+.overviewParent3 {
+  top: 0;
+  left: 0;
+  width: 120px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-9xs);
+}
+.frameParent {
+  top: 49px;
+  left: 156px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}
+.cardDetails {
+  position: absolute;
+  top: 132px;
+  left: 0;
+  width: 1440px;
+  height: 356px;
+  text-align: left;
+  font-size: var(--px-semibold-size);
+  color: var(--neutrals-grey-500-100);
+  font-family: var(--px-semibold);
+}

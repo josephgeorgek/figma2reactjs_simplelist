@@ -1,0 +1,286 @@
+.rectangleIcon {
+  height: 88.34%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 11.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.english,
+.rectangle,
+.rectangleIcon {
+  position: absolute;
+  left: 0;
+}
+.rectangle {
+  height: 3.68%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 96.32%;
+  background: linear-gradient(225.1deg, #5c6f8c, #2f3c54);
+}
+.english {
+  width: 51.11%;
+  top: 5.88%;
+  font-weight: 600;
+  display: inline-block;
+}
+.lineIcon {
+  position: absolute;
+  height: 81.24%;
+  width: 1.11%;
+  top: 21.7%;
+  right: 45.56%;
+  bottom: -2.94%;
+  left: 53.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  width: 37.78%;
+  top: 0;
+  left: 62.22%;
+  font-weight: 500;
+  font-family: var(--font-noto-sans-sc);
+  color: var(--color-steelblue);
+  display: inline-block;
+}
+.div,
+.group,
+.logout {
+  position: absolute;
+}
+.group {
+  height: 10.43%;
+  width: 6.25%;
+  top: 17.18%;
+  right: 23.96%;
+  bottom: 72.39%;
+  left: 69.79%;
+}
+.logout {
+  width: 100%;
+  top: 58.82%;
+  left: 0;
+  display: inline-block;
+}
+.icoLogoutIcon {
+  position: absolute;
+  height: 54.41%;
+  width: 51.39%;
+  top: -0.74%;
+  right: 15.97%;
+  bottom: 46.32%;
+  left: 32.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoutParent {
+  position: absolute;
+  height: 20.86%;
+  width: 2.5%;
+  top: 19.63%;
+  right: 16.53%;
+  bottom: 59.51%;
+  left: 80.97%;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-slategray-100);
+}
+.mailbox {
+  position: absolute;
+  width: 100%;
+  top: 57.58%;
+  left: 0;
+  display: inline-block;
+}
+.icoMessageIcon {
+  position: absolute;
+  height: 49.4%;
+  width: 49.51%;
+  top: -0.46%;
+  right: 24.02%;
+  bottom: 51.06%;
+  left: 26.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mailboxParent {
+  height: 20.25%;
+  width: 2.85%;
+  top: 20.25%;
+  right: 19.72%;
+  bottom: 59.51%;
+  left: 77.43%;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-slategray-100);
+}
+.b,
+.mailboxParent,
+.navBg {
+  position: absolute;
+}
+.b {
+  width: 0.97%;
+  top: calc(50% - 55.5px);
+  left: 75.9%;
+  font-size: var(--font-size-4xs);
+  display: none;
+  color: var(--neutrals-white-100);
+  text-align: center;
+  height: 13px;
+}
+.navBg {
+  height: 32.52%;
+  width: 66.94%;
+  top: 67.48%;
+  right: 16.53%;
+  bottom: 0;
+  left: 16.53%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(180deg, #fff, #e5e9ec);
+  box-shadow: 1px 0 8px 1px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.icoNavHomeIcon {
+  position: absolute;
+  height: 97.45%;
+  width: 3.21%;
+  top: 0;
+  right: 96.79%;
+  bottom: 2.55%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.administration,
+.tools {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 87.83%;
+  font-weight: 600;
+}
+.tools {
+  left: 77.92%;
+}
+.accounts,
+.financialManagement,
+.tradeFinance,
+.transactions {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 60.74%;
+  font-weight: 600;
+}
+.accounts,
+.financialManagement,
+.transactions {
+  left: 36.99%;
+}
+.accounts,
+.transactions {
+  left: 21%;
+}
+.accounts {
+  left: 8.83%;
+}
+.icoNavHomeParent {
+  position: absolute;
+  height: 13.5%;
+  width: 58.19%;
+  top: 76.69%;
+  right: 20.9%;
+  bottom: 9.82%;
+  left: 20.9%;
+  overflow: hidden;
+  font-size: var(--px-bold-upper-size);
+}
+.logoIcon {
+  position: relative;
+  width: 162.55px;
+  height: 34.15px;
+  display: none;
+}
+.newIcon {
+  position: relative;
+  width: 115.33px;
+  height: 31.12px;
+}
+.ocbcLogo {
+  width: 117.28px;
+  height: 37.79px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 11.97px;
+}
+.frameChild {
+  position: relative;
+  width: 2px;
+  height: 44.9px;
+}
+.esolutionAlphaPte,
+.goodMorningPatricContainer,
+.lastLogin17 {
+  position: relative;
+  display: inline-block;
+  width: 409px;
+}
+.esolutionAlphaPte,
+.lastLogin17 {
+  width: 234px;
+}
+.lastLogin17 {
+  font-size: var(--font-size-3xs);
+  color: var(--color-slategray-100);
+}
+.goodMorningPatricParent,
+.ocbcLogoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.ocbcLogoParent {
+  position: absolute;
+  top: 32px;
+  left: 238px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-2xl);
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 163px;
+  overflow: hidden;
+}
+.navBar {
+  position: relative;
+  width: 1440px;
+  height: 163px;
+}
+.statefrankenstein {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--bb-neutrals-grey900);
+  font-family: var(--px-semibold);
+}
